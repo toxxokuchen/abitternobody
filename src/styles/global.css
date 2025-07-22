@@ -2,16 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.container { padding: 20px; } 
+.container {
+  padding: 20px;
+}
 
 @media (max-width: 599px) {
-    .container { background-color: lightblue; }
+  .container {
+    background-color: lightblue;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
-    .container { background-color: lightgreen; }
+  .container {
+    background-color: lightgreen;
+  }
 }
 
 @media (min-width: 1200px) {
-    .container { background-color: lightcoral; }
+  .container {
+    background-color: lightcoral;
+  }
 }
